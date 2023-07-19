@@ -57,4 +57,31 @@
 		<servlet-name>pxu.edu.vn.bai04.LoginPage</servlet-name>
 		<url-pattern>/LoginPage</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyServlet1</servlet-name>
+		<jsp-file>/dtconfig.jsp</jsp-file>
+		<init-param>
+			<param-name>username</param-name>
+			<param-value>tuyen</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>thaouyen1733</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyServlet1</servlet-name>
+		<url-pattern>/dtconfig</url-pattern>
+	</servlet-mapping>
+	
+	<context-param>
+		<param-name>username</param-name>
+		<param-value>tuyen</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>thaouyen1733</param-value>
+	</context-param>
+	
 </web-app>
